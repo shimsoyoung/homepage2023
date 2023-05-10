@@ -49,7 +49,7 @@
 			#{crudId}
 			, #{crudSj}
 			, #{crudCn}
-			, #{userNM}
+			, #{userNm}
 			, NOW()
 		)
 	</insert>
@@ -58,7 +58,7 @@
 		UPDATE LETCRUD SET
 		   CRUD_SJ =#{crudSj}
 		   , CRUD_CN = #{crudCn}
-		   , USER_NM = #{userNM}
+		   , USER_NM = #{userNm}
 		WHERE CRUD_ID = #{crudId}
 	</update>
 	
